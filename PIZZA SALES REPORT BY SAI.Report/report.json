@@ -1,0 +1,627 @@
+{
+  "config": "{\"version\":\"5.64\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.64\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "delivery-man47964694227949.png",
+            "path": "delivery-man47964694227949.png",
+            "type": 100
+          },
+          {
+            "name": "down-arrow0611184028844407.png",
+            "path": "down-arrow0611184028844407.png",
+            "type": 100
+          },
+          {
+            "name": "down-arrow7306043321220234.png",
+            "path": "down-arrow7306043321220234.png",
+            "type": 100
+          },
+          {
+            "name": "filter_(1)6596799925489563.png",
+            "path": "filter_(1)6596799925489563.png",
+            "type": 100
+          },
+          {
+            "name": "home11537418203977867.png",
+            "path": "home11537418203977867.png",
+            "type": 100
+          },
+          {
+            "name": "home31238582954517435.png",
+            "path": "home31238582954517435.png",
+            "type": 100
+          },
+          {
+            "name": "order-delivery017333169335473575.png",
+            "path": "order-delivery017333169335473575.png",
+            "type": 100
+          },
+          {
+            "name": "pizza-slice5785093736920837.png",
+            "path": "pizza-slice5785093736920837.png",
+            "type": 100
+          },
+          {
+            "name": "profit-growth36838622125121034.png",
+            "path": "profit-growth36838622125121034.png",
+            "type": 100
+          },
+          {
+            "name": "star4209584329088386.png",
+            "path": "star4209584329088386.png",
+            "type": 100
+          },
+          {
+            "name": "star4586961024281473.png",
+            "path": "star4586961024281473.png",
+            "type": 100
+          },
+          {
+            "name": "test9713540361917551.png",
+            "path": "test9713540361917551.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"displayArea\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Middle'\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"85D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}",
+      "displayName": "HOME ",
+      "displayOption": 3,
+      "filters": "[]",
+      "height": 820.00,
+      "name": "28c1780eed368a7321ba",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"079906cf6c2e48a5d0b7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12,\"y\":20,\"z\":2000,\"width\":1472,\"height\":66,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'tabRoundTopCorners'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#573B93'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 66.00,
+          "width": 1472.00,
+          "x": 12.00,
+          "y": 20.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"0f46eb7c03fc2fd874c9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":237.2549019607843,\"y\":523.5294117647059,\"z\":10000,\"width\":374.5098039215686,\"height\":280.3921568627451,\"tabOrder\":8001}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 280.39,
+          "width": 374.51,
+          "x": 237.25,
+          "y": 523.53,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"13a1beae43cc35f37b8c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":238,\"y\":106,\"z\":1000,\"width\":1246,\"height\":142,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"pizza_sales.Total Revenue\"},{\"queryRef\":\"pizza_sales.Avg Order Value\"},{\"queryRef\":\"pizza_sales.Total Pizza sold\"},{\"queryRef\":\"pizza_sales.Total order\"},{\"queryRef\":\"pizza_sales.Agv Pizzas Per Order\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Revenue\"},\"Name\":\"pizza_sales.Total Revenue\",\"NativeReferenceName\":\"Total Revenue\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Avg Order Value\"},\"Name\":\"pizza_sales.Avg Order Value\",\"NativeReferenceName\":\"Avg Order Value\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Pizza sold\"},\"Name\":\"pizza_sales.Total Pizza sold\",\"NativeReferenceName\":\"Total Pizza sold\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total order\"},\"Name\":\"pizza_sales.Total order\",\"NativeReferenceName\":\"Total order\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Agv Pizzas Per Order\"},\"Name\":\"pizza_sales.Agv Pizzas Per Order\",\"NativeReferenceName\":\"Agv Pizzas Per Order\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Revenue\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"layout\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}},{\"properties\":{\"rectangleRoundedCurveCustomStyle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"rectangleRoundedCurveLeftTop\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":-0.5}}}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Total Pizza sold\"}},{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Total order\"}}],\"label\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":-0.5}}}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'belowValue'\"}}}},\"selector\":{\"id\":\"default\"}}],\"shapeCustomRectangle\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRoundedByPixel'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}}},\"selector\":{\"id\":\"default\"}}],\"shadowCustom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Inner'\"}}}},\"selector\":{\"id\":\"default\"}}],\"glowCustom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Inner'\"}}}},\"selector\":{\"id\":\"default\"}}],\"accentBar\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Left'\"}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"6D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":-0.5}}}}}},\"selector\":{\"id\":\"default\"}}],\"image\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"url\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'profit-growth.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"profit-growth36838622125121034.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"size\":{\"expr\":{\"Literal\":{\"Value\":\"30L\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Total Revenue\"}},{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'test.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"test9713540361917551.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"size\":{\"expr\":{\"Literal\":{\"Value\":\"30L\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Avg Order Value\"}},{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'delivery-man.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"delivery-man47964694227949.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"size\":{\"expr\":{\"Literal\":{\"Value\":\"30L\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Total Pizza sold\"}},{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'order-delivery.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"order-delivery017333169335473575.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"size\":{\"expr\":{\"Literal\":{\"Value\":\"17L\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Total order\"}},{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'filter (1).png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"filter_(1)6596799925489563.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"size\":{\"expr\":{\"Literal\":{\"Value\":\"30L\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Agv Pizzas Per Order\"}}],\"referenceLabel\":[{\"properties\":{},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":0}}],\"metadata\":\"pizza_sales.Total Revenue\",\"id\":\"field-33c65a5f-e035-15de-7010-14f917bfec48\",\"order\":0}},{\"properties\":{},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":0}}],\"metadata\":\"pizza_sales.Total Pizza sold\",\"id\":\"field-564f7339-cfb9-04af-9dd5-abe70eb66730\",\"order\":0}}],\"referenceLabelDetail\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Total Pizza sold\",\"id\":\"field-564f7339-cfb9-04af-9dd5-abe70eb66730\"}}]}}}",
+          "filters": "[]",
+          "height": 142.00,
+          "width": 1246.00,
+          "x": 238.00,
+          "y": 106.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"1b87e508a7f07f3dc58b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1160,\"y\":20,\"z\":16004,\"width\":222,\"height\":66,\"tabOrder\":8012}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"pizza_sales.order_date\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"order_date\"},\"Name\":\"pizza_sales.order_date\",\"NativeReferenceName\":\"order_date\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"order_date\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}],\"general\":[{\"properties\":{}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'pizza Category'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"slider\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":8,\"Percent\":0.6}}}}}}}],\"date\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 66.00,
+          "width": 222.00,
+          "x": 1160.00,
+          "y": 20.00,
+          "z": 16004.00
+        },
+        {
+          "config": "{\"name\":\"231288a6ebc629ff6204\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.25,\"y\":265,\"z\":16000,\"width\":215,\"height\":38.75,\"tabOrder\":8008}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"BUSIEST DAYS & TIMES\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Calibri\",\"fontSize\":\"14pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.2}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 38.75,
+          "width": 215.00,
+          "x": 11.25,
+          "y": 265.00,
+          "z": 16000.00
+        },
+        {
+          "config": "{\"name\":\"29f536265b4d3e523234\",\"layouts\":[{\"id\":0,\"position\":{\"x\":611.7647058823529,\"y\":523.5294117647059,\"z\":11000,\"width\":413.7254901960784,\"height\":280.3921568627451,\"tabOrder\":8002}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 280.39,
+          "width": 413.73,
+          "x": 611.76,
+          "y": 523.53,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"31e63ada935b97054cdc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":637.9310344827587,\"y\":53.44827586206897,\"z\":4000,\"width\":129.31034482758622,\"height\":32.758620689655174,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"JAN 15 -DEC 15\",\"textStyle\":{\"fontFamily\":\"Consolas\",\"fontStyle\":\"italic\",\"color\":\"#eb895f\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 32.76,
+          "width": 129.31,
+          "x": 637.93,
+          "y": 53.45,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"407039be5cd664c1a2de\",\"layouts\":[{\"id\":0,\"position\":{\"x\":237.2549019607843,\"y\":247.05882352941177,\"z\":6000,\"width\":615.6862745098039,\"height\":276.4705882352941,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 276.47,
+          "width": 615.69,
+          "x": 237.25,
+          "y": 247.06,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"4eee50eac3907551861c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.5,\"y\":126.25,\"z\":16006,\"width\":213.75,\"height\":50}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true,\"objects\":{\"pages\":[{\"properties\":{\"showPage\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"ea18cb1fe1d5d36aae7d\"}}],\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'pill'\"}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 50.00,
+          "width": 213.75,
+          "x": 12.50,
+          "y": 126.25,
+          "z": 16006.00
+        },
+        {
+          "config": "{\"name\":\"554c1dd07d0b57e5a033\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12,\"y\":304,\"z\":16001,\"width\":214,\"height\":204,\"tabOrder\":8009}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"DAYS\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"textDecoration\":\"underline\",\"color\":\"#573b92\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"Orders are \",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\"}},{\"value\":\"highest\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"color\":\"#eb895f\"}},{\"value\":\" on\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"weekends, \",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\"}},{\"value\":\"Friday , Saturday\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"color\":\"#41a4ff\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"evenings\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Monthly\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"textDecoration\":\"underline\",\"color\":\"#ad5129\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"There are \",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\"}},{\"value\":\"maximum\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"color\":\"#ca1111\"}},{\"value\":\" orders\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"from month \",\"textStyle\":{\"fontWeight\":\"bold\"}},{\"value\":\"JAN and \",\"textStyle\":{\"fontWeight\":\"bold\",\"color\":\"#a0d1ff\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"JULY\",\"textStyle\":{\"fontWeight\":\"bold\",\"color\":\"#a0d1ff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 204.00,
+          "width": 214.00,
+          "x": 12.00,
+          "y": 304.00,
+          "z": 16001.00
+        },
+        {
+          "config": "{\"name\":\"5b912c41a88362a206d4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":178.75,\"y\":132.5,\"z\":16008,\"width\":38.75,\"height\":38.75,\"tabOrder\":8014}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"down-arrow7306043321220234.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 38.75,
+          "width": 38.75,
+          "x": 178.75,
+          "y": 132.50,
+          "z": 16008.00
+        },
+        {
+          "config": "{\"name\":\"5d3ba2597902b437f8d8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.25,\"y\":538.75,\"z\":16002,\"width\":215,\"height\":38.75,\"tabOrder\":8010}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"SALAS PERFORMANCE\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.2}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 38.75,
+          "width": 215.00,
+          "x": 11.25,
+          "y": 538.75,
+          "z": 16002.00
+        },
+        {
+          "config": "{\"name\":\"652cf6fa2901208fa548\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1044,\"y\":540,\"z\":15000,\"width\":424,\"height\":252,\"tabOrder\":8006}}],\"singleVisual\":{\"visualType\":\"funnel\",\"projections\":{\"Category\":[{\"queryRef\":\"pizza_sales.pizza_category\",\"active\":true}],\"Y\":[{\"queryRef\":\"pizza_sales.Total Pizza sold\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Pizza sold\"},\"Name\":\"pizza_sales.Total Pizza sold\",\"NativeReferenceName\":\"Total Pizza sold\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_category\"},\"Name\":\"pizza_sales.pizza_category\",\"NativeReferenceName\":\"pizza_category\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Pizza sold\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"percentBarLabel\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"pizza_sales\"}},\"Property\":\"Total Pizza sold\"}},\"FillRule\":{\"linearGradient2\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#414FB1'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#AD5129'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"labels\":[{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"categoryAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Pizza Sold by Pizza Category'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":-0.25}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 252.00,
+          "width": 424.00,
+          "x": 1044.00,
+          "y": 540.00,
+          "z": 15000.00
+        },
+        {
+          "config": "{\"name\":\"698f1341c34da2e9b0c2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":105,\"z\":0,\"width\":237.5,\"height\":698.75,\"tabOrder\":8007}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"48D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 698.75,
+          "width": 237.50,
+          "x": 0.00,
+          "y": 105.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"7f1d50a159b8cc6ee7fd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":878,\"y\":24,\"z\":16005,\"width\":250,\"height\":60,\"tabOrder\":8013}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"pizza_sales.pizza_category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_category\"},\"Name\":\"pizza_sales.pizza_category\",\"NativeReferenceName\":\"pizza_category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'pizza Category'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 60.00,
+          "width": 250.00,
+          "x": 878.00,
+          "y": 24.00,
+          "z": 16005.00
+        },
+        {
+          "config": "{\"name\":\"9884ad75f4b3bd6e2268\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.5,\"y\":185,\"z\":16007,\"width\":213.75,\"height\":50}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true,\"objects\":{\"pages\":[{\"properties\":{\"showPage\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"id\":\"ea18cb1fe1d5d36aae7d\"}},{\"properties\":{\"showPage\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"28c1780eed368a7321ba\"}}],\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'pill'\"}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 50.00,
+          "width": 213.75,
+          "x": 12.50,
+          "y": 185.00,
+          "z": 16007.00
+        },
+        {
+          "config": "{\"name\":\"a5753708db4f8b1ac8b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":252.94117647058823,\"y\":539.2156862745098,\"z\":13000,\"width\":345.09803921568624,\"height\":250.98039215686273,\"tabOrder\":8004}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"pizza_sales.pizza_category\",\"active\":true}],\"Y\":[{\"queryRef\":\"pizza_sales.Total Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_category\"},\"Name\":\"pizza_sales.pizza_category\",\"NativeReferenceName\":\"pizza_category\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Revenue\"},\"Name\":\"pizza_sales.Total Revenue\",\"NativeReferenceName\":\"Total Revenue\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Revenue\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'Percent of total'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Percentage of Sales by Pizza Category'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":-0.25}}}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 250.98,
+          "width": 345.10,
+          "x": 252.94,
+          "y": 539.22,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"af1c9b53e37451060326\",\"layouts\":[{\"id\":0,\"position\":{\"x\":567.2413793103449,\"y\":20.689655172413794,\"z\":3000,\"width\":286.2068965517242,\"height\":51.724137931034484,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"PIZZA SALES REPORT\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"20pt\",\"color\":\"#ffffff\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 51.72,
+          "width": 286.21,
+          "x": 567.24,
+          "y": 20.69,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"bc47f28f45e6377c7452\",\"layouts\":[{\"id\":0,\"position\":{\"x\":868,\"y\":264,\"z\":9000,\"width\":600,\"height\":236,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"areaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"pizza_sales.Order Month\",\"active\":true}],\"Y\":[{\"queryRef\":\"pizza_sales.Total order\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total order\"},\"Name\":\"pizza_sales.Total order\",\"NativeReferenceName\":\"Total order\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Order Month\"},\"Name\":\"pizza_sales.Order Month\",\"NativeReferenceName\":\"Order Month\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Order Month\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":7,\"Percent\":-0.25}}}}}},\"selector\":{\"metadata\":\"pizza_sales.Total order\"}},{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"85D\"}}}}}],\"lineStyles\":[{\"properties\":{\"showMarker\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"markerSize\":{\"expr\":{\"Literal\":{\"Value\":\"6D\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"enableBackground\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"backgroundColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"backgroundTransparency\":{\"expr\":{\"Literal\":{\"Value\":\"65L\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Monthly Trend for Total Orders'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":7,\"Percent\":-0.25}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 236.00,
+          "width": 600.00,
+          "x": 868.00,
+          "y": 264.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"c3bc717ccd1fc1b8cb06\",\"layouts\":[{\"id\":0,\"position\":{\"x\":17.5,\"y\":193.75,\"z\":16009,\"width\":33.746874999999996,\"height\":32.49075,\"tabOrder\":8015}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"star4209584329088386.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 32.49,
+          "width": 33.75,
+          "x": 17.50,
+          "y": 193.75,
+          "z": 16009.00
+        },
+        {
+          "config": "{\"name\":\"cdb6657db2ab505b79d5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":852,\"y\":246,\"z\":8000,\"width\":632,\"height\":278,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 278.00,
+          "width": 632.00,
+          "x": 852.00,
+          "y": 246.00,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"d46cdac045e242962ff0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":510.3448275862069,\"y\":25.862068965517242,\"z\":5000,\"width\":56.896551724137936,\"height\":56.896551724137936,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"pizza-slice5785093736920837.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 56.90,
+          "width": 56.90,
+          "x": 510.34,
+          "y": 25.86,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"d5bcb7e1e07a6ebbcaf0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1026,\"y\":524,\"z\":12000,\"width\":458,\"height\":280,\"tabOrder\":8003}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 458.00,
+          "x": 1026.00,
+          "y": 524.00,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"d78d50aaf8dddd004027\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.25,\"y\":577.5,\"z\":16003,\"width\":215,\"height\":195,\"tabOrder\":8011}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"CATEGORY\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"14pt\",\"textDecoration\":\"underline\",\"color\":\"#893395\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"Classic Category \",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"color\":\"#d64550\"}},{\"value\":\"contributes to\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"maximum\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"color\":\"#e669b9\"}},{\"value\":\" sales & total orders.\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"SIZE\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#893395\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"Large size pizza contributes to \",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\"}},{\"value\":\"maximum\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"color\":\"#eb895f\"}},{\"value\":\" sales\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 195.00,
+          "width": 215.00,
+          "x": 11.25,
+          "y": 577.50,
+          "z": 16003.00
+        },
+        {
+          "config": "{\"name\":\"e045a8774b40e1ed6e9d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":629.4117647058823,\"y\":539.2156862745098,\"z\":14000,\"width\":380.3921568627451,\"height\":250.98039215686273,\"tabOrder\":8005}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Y\":[{\"queryRef\":\"pizza_sales.Total Revenue\"}],\"Category\":[{\"queryRef\":\"pizza_sales.pizza_size\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Revenue\"},\"Name\":\"pizza_sales.Total Revenue\",\"NativeReferenceName\":\"Total Revenue\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_size\"},\"Name\":\"pizza_sales.pizza_size\",\"NativeReferenceName\":\"pizza_size\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Revenue\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'Percent of total'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"slices\":[{\"properties\":{\"startAngle\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Percentage of Sales by Pizza Size'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":-0.25}}}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 250.98,
+          "width": 380.39,
+          "x": 629.41,
+          "y": 539.22,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"eb228ae7e153ff007f9e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":252.94117647058823,\"y\":264.70588235294116,\"z\":7000,\"width\":582.3529411764706,\"height\":243.13725490196077,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"pizza_sales.Total order\"}],\"Category\":[{\"queryRef\":\"pizza_sales.Order Day\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total order\"},\"Name\":\"pizza_sales.Total order\",\"NativeReferenceName\":\"Total order\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Order Day\"},\"Name\":\"pizza_sales.Order Day\",\"NativeReferenceName\":\"Order Day\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Order Day\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"innerPadding\":{\"expr\":{\"Literal\":{\"Value\":\"41L\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"pizza_sales\"}},\"Property\":\"Total order\"}},\"FillRule\":{\"linearGradient2\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#EB895F'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#73361C'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}},{\"properties\":{\"borderShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"borderOutlineOnly\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}}}}],\"ribbonBands\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Daily Trend for Total Orders'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":-0.5}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 243.14,
+          "width": 582.35,
+          "x": 252.94,
+          "y": 264.71,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"f161c85b096fae8c719c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":18.75,\"y\":136.25,\"z\":16010,\"width\":30,\"height\":32.5,\"tabOrder\":8016}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"home31238582954517435.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 32.50,
+          "width": 30.00,
+          "x": 18.75,
+          "y": 136.25,
+          "z": 16010.00
+        },
+        {
+          "config": "{\"name\":\"fd184b9dbc7d9967d157\",\"layouts\":[{\"id\":0,\"position\":{\"x\":28.75,\"y\":40,\"z\":16011,\"width\":313.75,\"height\":32.5,\"tabOrder\":8017}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"CREATE BY RAMANADAM VENKATA SIVA SAI\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe (Bold)\",\"color\":\"#ffffff\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 32.50,
+          "width": 313.75,
+          "x": 28.75,
+          "y": 40.00,
+          "z": 16011.00
+        }
+      ],
+      "width": 1500.00
+    },
+    {
+      "config": "{\"objects\":{\"displayArea\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Middle'\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"85D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}",
+      "displayName": "BEST/WOREST SELERS",
+      "displayOption": 3,
+      "filters": "[]",
+      "height": 820.00,
+      "name": "ea18cb1fe1d5d36aae7d",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0503ad64028a1450a1dd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1074,\"y\":262,\"z\":21010,\"width\":412,\"height\":244,\"tabOrder\":21010}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"pizza_sales.pizza_name\",\"active\":true}],\"Y\":[{\"queryRef\":\"pizza_sales.Total order\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"},\"Name\":\"pizza_sales.pizza_name\",\"NativeReferenceName\":\"pizza_name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total order\"},\"Name\":\"pizza_sales.Total order\",\"NativeReferenceName\":\"Total order\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total order\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.4}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"pizza_sales\"}},\"Property\":\"Total order\"}},\"FillRule\":{\"linearGradient2\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#8D4CB5'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#BB00FF'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}},{\"properties\":{}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Top 5 Pizza by Total Orders'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":7,\"Percent\":-0.5}}}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"pizza_sales\"}},\"Property\":\"pizza_name\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total order\"}}}],\"Top\":5}}},\"Type\":2},{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 244.00,
+          "width": 412.00,
+          "x": 1074.00,
+          "y": 262.00,
+          "z": 21010.00
+        },
+        {
+          "config": "{\"name\":\"1211f9d9f72dc70d724c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":666,\"y\":266,\"z\":21008,\"width\":384,\"height\":244,\"tabOrder\":21008}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"pizza_sales.pizza_name\",\"active\":true}],\"Y\":[{\"queryRef\":\"pizza_sales.Total Pizza sold\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"},\"Name\":\"pizza_sales.pizza_name\",\"NativeReferenceName\":\"pizza_name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Pizza sold\"},\"Name\":\"pizza_sales.Total Pizza sold\",\"NativeReferenceName\":\"Total Pizza sold\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Pizza sold\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.4}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"pizza_sales\"}},\"Property\":\"Total Pizza sold\"}},\"FillRule\":{\"linearGradient2\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#ec8fca'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#D514B8'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}},{\"properties\":{}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Top 5 Pizza by Quantity'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":7,\"Percent\":-0.5}}}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"pizza_sales\"}},\"Property\":\"pizza_name\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Pizza sold\"}}}],\"Top\":5}}},\"Type\":2},{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 244.00,
+          "width": 384.00,
+          "x": 666.00,
+          "y": 266.00,
+          "z": 21008.00
+        },
+        {
+          "config": "{\"name\":\"15485957f06b01b236d2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":650,\"y\":248,\"z\":21001,\"width\":413.996,\"height\":273.996,\"tabOrder\":21001}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 274.00,
+          "width": 414.00,
+          "x": 650.00,
+          "y": 248.00,
+          "z": 21001.00
+        },
+        {
+          "config": "{\"name\":\"22d3cd2011b119320b8e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":240,\"y\":524,\"z\":21003,\"width\":414,\"height\":274,\"tabOrder\":21003}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 274.00,
+          "width": 414.00,
+          "x": 240.00,
+          "y": 524.00,
+          "z": 21003.00
+        },
+        {
+          "config": "{\"name\":\"38de59e387ee235d4401\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1074,\"y\":538,\"z\":21011,\"width\":412,\"height\":244,\"tabOrder\":21011}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"pizza_sales.pizza_name\",\"active\":true}],\"Y\":[{\"queryRef\":\"pizza_sales.Total order\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"},\"Name\":\"pizza_sales.pizza_name\",\"NativeReferenceName\":\"pizza_name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total order\"},\"Name\":\"pizza_sales.Total order\",\"NativeReferenceName\":\"Total order\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total order\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.4}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"enableBackground\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"backgroundColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"backgroundTransparency\":{\"expr\":{\"Literal\":{\"Value\":\"60L\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"pizza_sales\"}},\"Property\":\"Total order\"}},\"FillRule\":{\"linearGradient2\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#8D4CB5'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#BB00FF'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}},{\"properties\":{}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Top 5 Pizza by Total Orders'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":7,\"Percent\":-0.5}}}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"pizza_sales\"}},\"Property\":\"pizza_name\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total order\"}}}],\"Top\":5}}},\"Type\":2},{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 244.00,
+          "width": 412.00,
+          "x": 1074.00,
+          "y": 538.00,
+          "z": 21011.00
+        },
+        {
+          "config": "{\"name\":\"3ff6d21e40d6d8e1764f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":266,\"z\":16000,\"width\":213.996,\"height\":37.9902,\"tabOrder\":16000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"BEST SELLERS\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Calibri\",\"fontSize\":\"14pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.2}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 37.99,
+          "width": 214.00,
+          "x": 10.00,
+          "y": 266.00,
+          "z": 16000.00
+        },
+        {
+          "config": "{\"name\":\"6fd97d0977280ea3e554\",\"layouts\":[{\"id\":0,\"position\":{\"x\":510.3448275862069,\"y\":25.862068965517242,\"z\":5000,\"width\":56.896551724137936,\"height\":56.896551724137936,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"pizza-slice5785093736920837.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 56.90,
+          "width": 56.90,
+          "x": 510.34,
+          "y": 25.86,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"7a7de3938b6c7bc4e9f1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":666,\"y\":540,\"z\":21009,\"width\":384,\"height\":244,\"tabOrder\":21009}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"pizza_sales.pizza_name\",\"active\":true}],\"Y\":[{\"queryRef\":\"pizza_sales.Total Pizza sold\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"},\"Name\":\"pizza_sales.pizza_name\",\"NativeReferenceName\":\"pizza_name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Pizza sold\"},\"Name\":\"pizza_sales.Total Pizza sold\",\"NativeReferenceName\":\"Total Pizza sold\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Pizza sold\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.4}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"enableBackground\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"backgroundColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"backgroundTransparency\":{\"expr\":{\"Literal\":{\"Value\":\"41L\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"pizza_sales\"}},\"Property\":\"Total Pizza sold\"}},\"FillRule\":{\"linearGradient2\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#ec8fca'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#D514B8'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}},{\"properties\":{}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Bottom 5 Pizza by Quantity'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":7,\"Percent\":-0.5}}}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"pizza_sales\"}},\"Property\":\"pizza_name\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Pizza sold\"}}}],\"Top\":5}}},\"Type\":2},{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 244.00,
+          "width": 384.00,
+          "x": 666.00,
+          "y": 540.00,
+          "z": 21009.00
+        },
+        {
+          "config": "{\"name\":\"7a8a59a1e44fb3dd70c1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":7.5,\"y\":138.75,\"z\":21013,\"width\":221.25,\"height\":50}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true,\"objects\":{\"pages\":[{\"properties\":{\"showPage\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"id\":\"28c1780eed368a7321ba\"}},{\"properties\":{\"showPage\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"ea18cb1fe1d5d36aae7d\"}}],\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'pill'\"}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 50.00,
+          "width": 221.25,
+          "x": 7.50,
+          "y": 138.75,
+          "z": 21013.00
+        },
+        {
+          "config": "{\"name\":\"88cf3014b32ef7e30ab4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1203.75,\"y\":20,\"z\":20000,\"width\":222.4875,\"height\":66.23774999999999,\"tabOrder\":20000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"pizza_sales.order_date\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"order_date\"},\"Name\":\"pizza_sales.order_date\",\"NativeReferenceName\":\"order_date\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"order_date\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}],\"general\":[{\"properties\":{}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'pizza Category'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"slider\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":8,\"Percent\":0.6}}}}}}}],\"date\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 66.24,
+          "width": 222.49,
+          "x": 1203.75,
+          "y": 20.00,
+          "z": 20000.00
+        },
+        {
+          "config": "{\"name\":\"89bf73013046ce1483de\",\"layouts\":[{\"id\":0,\"position\":{\"x\":637.9310344827587,\"y\":53.44827586206897,\"z\":4000,\"width\":129.31034482758622,\"height\":32.758620689655174,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"JAN 15 -DEC 15\",\"textStyle\":{\"fontFamily\":\"Consolas\",\"fontStyle\":\"italic\",\"color\":\"#eb895f\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 32.76,
+          "width": 129.31,
+          "x": 637.93,
+          "y": 53.45,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"956935c3dc1d42527042\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1062,\"y\":524,\"z\":21005,\"width\":424,\"height\":274,\"tabOrder\":21005}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 274.00,
+          "width": 424.00,
+          "x": 1062.00,
+          "y": 524.00,
+          "z": 21005.00
+        },
+        {
+          "config": "{\"name\":\"96fc41b130dcd0297164\",\"layouts\":[{\"id\":0,\"position\":{\"x\":237.2549019607843,\"y\":247.05882352941177,\"z\":6000,\"width\":415,\"height\":275,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 275.00,
+          "width": 415.00,
+          "x": 237.25,
+          "y": 247.06,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"99a520c1c8455c52e840\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.25,\"y\":538.75,\"z\":18000,\"width\":215,\"height\":38.75,\"tabOrder\":18000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"WORST SELLER\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.2}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 38.75,
+          "width": 215.00,
+          "x": 11.25,
+          "y": 538.75,
+          "z": 18000.00
+        },
+        {
+          "config": "{\"name\":\"9cd75c644870b911ad77\",\"layouts\":[{\"id\":0,\"position\":{\"x\":927.5,\"y\":23.75,\"z\":21000,\"width\":250,\"height\":59.98775,\"tabOrder\":21000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"pizza_sales.pizza_category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_category\"},\"Name\":\"pizza_sales.pizza_category\",\"NativeReferenceName\":\"pizza_category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'pizza Category'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 59.99,
+          "width": 250.00,
+          "x": 927.50,
+          "y": 23.75,
+          "z": 21000.00
+        },
+        {
+          "config": "{\"name\":\"9e4338dbe5261851f474\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.25,\"y\":201.25,\"z\":21016,\"width\":37.5,\"height\":38.75,\"tabOrder\":21014}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"star4586961024281473.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 38.75,
+          "width": 37.50,
+          "x": 11.25,
+          "y": 201.25,
+          "z": 21016.00
+        },
+        {
+          "config": "{\"name\":\"a06869106e18ef43bc1c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":238,\"y\":106,\"z\":1000,\"width\":1248,\"height\":142,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"pizza_sales.Total Revenue\"},{\"queryRef\":\"pizza_sales.Avg Order Value\"},{\"queryRef\":\"pizza_sales.Total Pizza sold\"},{\"queryRef\":\"pizza_sales.Total order\"},{\"queryRef\":\"pizza_sales.Agv Pizzas Per Order\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Revenue\"},\"Name\":\"pizza_sales.Total Revenue\",\"NativeReferenceName\":\"Total Revenue\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Avg Order Value\"},\"Name\":\"pizza_sales.Avg Order Value\",\"NativeReferenceName\":\"Avg Order Value\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Pizza sold\"},\"Name\":\"pizza_sales.Total Pizza sold\",\"NativeReferenceName\":\"Total Pizza sold\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total order\"},\"Name\":\"pizza_sales.Total order\",\"NativeReferenceName\":\"Total order\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Agv Pizzas Per Order\"},\"Name\":\"pizza_sales.Agv Pizzas Per Order\",\"NativeReferenceName\":\"Agv Pizzas Per Order\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Revenue\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"layout\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}},{\"properties\":{\"rectangleRoundedCurveCustomStyle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"rectangleRoundedCurveLeftTop\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":-0.5}}}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Total Pizza sold\"}},{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Total order\"}}],\"label\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":-0.5}}}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'belowValue'\"}}}},\"selector\":{\"id\":\"default\"}}],\"shapeCustomRectangle\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRoundedByPixel'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}}},\"selector\":{\"id\":\"default\"}}],\"shadowCustom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Inner'\"}}}},\"selector\":{\"id\":\"default\"}}],\"glowCustom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Inner'\"}}}},\"selector\":{\"id\":\"default\"}}],\"accentBar\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Left'\"}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"6D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":-0.5}}}}}},\"selector\":{\"id\":\"default\"}}],\"image\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"url\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'profit-growth.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"profit-growth36838622125121034.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"size\":{\"expr\":{\"Literal\":{\"Value\":\"30L\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Total Revenue\"}},{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'test.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"test9713540361917551.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"size\":{\"expr\":{\"Literal\":{\"Value\":\"30L\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Avg Order Value\"}},{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'delivery-man.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"delivery-man47964694227949.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"size\":{\"expr\":{\"Literal\":{\"Value\":\"30L\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Total Pizza sold\"}},{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'order-delivery.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"order-delivery017333169335473575.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"size\":{\"expr\":{\"Literal\":{\"Value\":\"17L\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Total order\"}},{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'filter (1).png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"filter_(1)6596799925489563.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"size\":{\"expr\":{\"Literal\":{\"Value\":\"30L\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Agv Pizzas Per Order\"}}],\"referenceLabel\":[{\"properties\":{},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":0}}],\"metadata\":\"pizza_sales.Total Revenue\",\"id\":\"field-33c65a5f-e035-15de-7010-14f917bfec48\",\"order\":0}},{\"properties\":{},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":0}}],\"metadata\":\"pizza_sales.Total Pizza sold\",\"id\":\"field-564f7339-cfb9-04af-9dd5-abe70eb66730\",\"order\":0}}],\"referenceLabelDetail\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"metadata\":\"pizza_sales.Total Pizza sold\",\"id\":\"field-564f7339-cfb9-04af-9dd5-abe70eb66730\"}}]}}}",
+          "filters": "[]",
+          "height": 142.00,
+          "width": 1248.00,
+          "x": 238.00,
+          "y": 106.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"a165bddd3014646f1299\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12,\"y\":304,\"z\":17000,\"width\":214,\"height\":204,\"tabOrder\":17000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"REVENUE\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"textDecoration\":\"underline\",\"color\":\"#573b92\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"The \",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\"}},{\"value\":\"Thai Chicken Pizza\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\",\"color\":\"#e669b9\"}},{\"value\":\" Contributes to maximum Revenue\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"QUANTITY\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"textDecoration\":\"underline\",\"color\":\"#c32938\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"The\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\"}},{\"value\":\" Classic Deluxe Pizza\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\",\"color\":\"#e669b9\"}},{\"value\":\" contributes to maximum Total Quantities\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"TOTAL ORDERS\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"textDecoration\":\"underline\",\"color\":\"#41a4ff\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"The \",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\"}},{\"value\":\"Classic Deluxe Pizza\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\",\"color\":\"#e669b9\"}},{\"value\":\" contributes to maximum Total Orders\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 204.00,
+          "width": 214.00,
+          "x": 12.00,
+          "y": 304.00,
+          "z": 17000.00
+        },
+        {
+          "config": "{\"name\":\"a36bd10665448ca9d61b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.909090909090908,\"y\":577.2727272727273,\"z\":19000,\"width\":215.45454545454544,\"height\":206.36363636363635,\"tabOrder\":19000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"REVENUE\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"textDecoration\":\"underline\",\"color\":\"#573b92\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"The \",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\"}},{\"value\":\" \",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\",\"color\":\"#eb895f\"}},{\"value\":\"Brie Carre Pizza\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\",\"color\":\"#339845\"}},{\"value\":\" Contributes to maximum Revenue\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"QUANTITY\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"textDecoration\":\"underline\",\"color\":\"#c32938\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"The\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\"}},{\"value\":\" BriecCarre Pizza\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\",\"color\":\"#339845\"}},{\"value\":\" contributes to maximum Total Quantities\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"TOTAL ORDERS\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"textDecoration\":\"underline\",\"color\":\"#41a4ff\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"The\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\"}},{\"value\":\" Brie Carre Pizza\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\",\"color\":\"#339845\"}},{\"value\":\" contributes to maximum Total Orders\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"8pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]}]}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 206.36,
+          "width": 215.45,
+          "x": 10.91,
+          "y": 577.27,
+          "z": 19000.00
+        },
+        {
+          "config": "{\"name\":\"a948eb45f0001d2ed3a5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":650,\"y\":524,\"z\":21004,\"width\":414,\"height\":274,\"tabOrder\":21004}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 274.00,
+          "width": 414.00,
+          "x": 650.00,
+          "y": 524.00,
+          "z": 21004.00
+        },
+        {
+          "config": "{\"name\":\"b2b30463f50f80a18a66\",\"layouts\":[{\"id\":0,\"position\":{\"x\":7.5,\"y\":197.5,\"z\":21012,\"width\":221.25,\"height\":50}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true,\"objects\":{\"pages\":[{\"properties\":{\"showPage\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"28c1780eed368a7321ba\"}}],\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'pill'\"}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 50.00,
+          "width": 221.25,
+          "x": 7.50,
+          "y": 197.50,
+          "z": 21012.00
+        },
+        {
+          "config": "{\"name\":\"ba494bfd31df043ece9a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":188.75,\"y\":205,\"z\":21014,\"width\":35,\"height\":35,\"tabOrder\":21012}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"down-arrow0611184028844407.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 35.00,
+          "x": 188.75,
+          "y": 205.00,
+          "z": 21014.00
+        },
+        {
+          "config": "{\"name\":\"bb4bea1d27eb0affc59a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":105,\"z\":0,\"width\":237.5,\"height\":698.75,\"tabOrder\":15000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"48D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 698.75,
+          "width": 237.50,
+          "x": 0.00,
+          "y": 105.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"cf75fbb784b5171d3dee\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12,\"y\":20,\"z\":2000,\"width\":1474,\"height\":66,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'tabRoundTopCorners'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#573B93'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 66.00,
+          "width": 1474.00,
+          "x": 12.00,
+          "y": 20.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"d020086e26136a9093f3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1062,\"y\":248,\"z\":21002,\"width\":424,\"height\":274,\"tabOrder\":21002}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 274.00,
+          "width": 424.00,
+          "x": 1062.00,
+          "y": 248.00,
+          "z": 21002.00
+        },
+        {
+          "config": "{\"name\":\"d3dfe734259cdd2b0e7d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":15,\"y\":145,\"z\":21015,\"width\":33.75,\"height\":38.75,\"tabOrder\":21013}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"home11537418203977867.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 38.75,
+          "width": 33.75,
+          "x": 15.00,
+          "y": 145.00,
+          "z": 21015.00
+        },
+        {
+          "config": "{\"name\":\"dea2ca349393bb6eb179\",\"layouts\":[{\"id\":0,\"position\":{\"x\":254,\"y\":262,\"z\":21006,\"width\":384,\"height\":244,\"tabOrder\":21006}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"pizza_sales.pizza_name\",\"active\":true}],\"Y\":[{\"queryRef\":\"pizza_sales.Total Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"},\"Name\":\"pizza_sales.pizza_name\",\"NativeReferenceName\":\"pizza_name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Revenue\"},\"Name\":\"pizza_sales.Total Revenue\",\"NativeReferenceName\":\"Total Revenue\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Revenue\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.4}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"pizza_sales\"}},\"Property\":\"Total Revenue\"}},\"FillRule\":{\"linearGradient2\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#B0F8F3'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#00A4FC'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Top 5 Pizza by Total Revenue'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":7,\"Percent\":-0.5}}}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"pizza_sales\"}},\"Property\":\"pizza_name\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Revenue\"}}}],\"Top\":5}}},\"Type\":2},{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 244.00,
+          "width": 384.00,
+          "x": 254.00,
+          "y": 262.00,
+          "z": 21006.00
+        },
+        {
+          "config": "{\"name\":\"ec881c69c9f508a54c32\",\"layouts\":[{\"id\":0,\"position\":{\"x\":256,\"y\":540,\"z\":21007,\"width\":384,\"height\":244,\"tabOrder\":21007}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"pizza_sales.pizza_name\",\"active\":true}],\"Y\":[{\"queryRef\":\"pizza_sales.Total Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"},\"Name\":\"pizza_sales.pizza_name\",\"NativeReferenceName\":\"pizza_name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Revenue\"},\"Name\":\"pizza_sales.Total Revenue\",\"NativeReferenceName\":\"Total Revenue\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Revenue\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.4}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"pizza_sales\"}},\"Property\":\"Total Revenue\"}},\"FillRule\":{\"linearGradient2\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#B0F8F3'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#00A4FC'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Bottom 5 Pizza by Total Revenue'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":7,\"Percent\":-0.5}}}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"pizza_sales\"}},\"Property\":\"pizza_name\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Revenue\"}}}],\"Top\":5}}},\"Type\":2},{\"Name\":\"p\",\"Entity\":\"pizza_sales\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"pizza_name\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 244.00,
+          "width": 384.00,
+          "x": 256.00,
+          "y": 540.00,
+          "z": 21007.00
+        },
+        {
+          "config": "{\"name\":\"ec9d0204c667e339eb87\",\"layouts\":[{\"id\":0,\"position\":{\"x\":567.2413793103449,\"y\":20.689655172413794,\"z\":3000,\"width\":286.2068965517242,\"height\":51.724137931034484,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"PIZZA SALES REPORT\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"20pt\",\"color\":\"#ffffff\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 51.72,
+          "width": 286.21,
+          "x": 567.24,
+          "y": 20.69,
+          "z": 3000.00
+        }
+      ],
+      "width": 1500.00
+    }
+  ]
+}
